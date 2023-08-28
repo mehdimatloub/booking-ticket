@@ -1,0 +1,26 @@
+/* public/mdi.css */
+@font-face {
+    font-family: "Material Design Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2") format("woff2"),
+         url("/node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff") format("woff"),
+         url("/node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf") format("truetype");
+  }
+  
+  .mdi {
+    font-family: "Material Design Icons";
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: middle;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    /* Support for IE. */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  

@@ -1,0 +1,24 @@
+/* globals.css */
+
+/* Import the base styles */
+@import 'tailwindcss/base';
+
+/* Import the component styles */
+@import 'tailwindcss/components';
+
+/* Import the utility styles */
+@import 'tailwindcss/utilities';
+
+/* Add any other global styles below, if needed */
+.checked {
+    width: 10%;
+    padding: 3px;
+    height: 100%; 
+    background: transparent;
+    border: 7px #4CAF50 double;
+    border-radius: 20px;
+}
+
+input[type="radio"]{
+    display: none;
+}

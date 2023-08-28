@@ -1,0 +1,74 @@
+/* globals.css */
+
+/* Import the base styles */
+@import 'tailwindcss/base';
+
+/* Import the component styles */
+@import 'tailwindcss/components';
+
+/* Import the utility styles */
+@import 'tailwindcss/utilities';
+
+/* Add any other global styles below, if needed */
+
+
+/* globals.css */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+}
+
+/* Couleurs principales */
+:root {
+  --primary-color: #FF4500; /* Orange vif */
+  --secondary-color: #00BFFF; /* Bleu ciel vif */
+  --accent-color: #75cd5a; /* Lavande */
+}
+
+header {
+  background-color: #fff; /* Fond blanc */
+  color: var(--primary-color); /* Texte de couleur orange vif */
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff; /* Arrière-plan blanc */
+  color: #000; /* Couleur du texte */
+}
+
+/* Couleurs secondaires */
+
+/* Bleu ciel vif */
+.nav-link {
+  color: var(--secondary-color);
+}
+
+/* Lavande */
+.highlight {
+  color: var(--accent-color);
+}
