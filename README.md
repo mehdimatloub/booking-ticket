@@ -1,3 +1,4 @@
+'''
         <h1>Interface Home</h1>
         <img width="959" alt="home page" src="https://github.com/mehdimatloub/booking-ticket/assets/104140239/18c7448c-59c5-4567-a7ad-f6dff04bc2a5">
         <h1>Interface Filtrage par Ville ou par Evènement :</h1>
@@ -25,7 +26,7 @@
         <h1>Interface de Gestion de Compte</h1>
         <img width="959" alt="Capture d'écran 2023-10-10 181034" src="https://github.com/mehdimatloub/booking-ticket/assets/104140239/7f58a7b4-c19f-4263-8324-81b1a40baf56">
 
-
+'''
 
         
 
